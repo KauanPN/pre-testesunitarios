@@ -14,5 +14,6 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
 
     if (user) {
         window.location.href = `bem_vindo.html?nome=${encodeURIComponent(user.nome)}`;
+        
     } 
 });
